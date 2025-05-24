@@ -1,0 +1,29 @@
+Vivado Simulator v2024.2.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/evan/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_calc_tb_behav xil_defaultlib.top_calc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.returnA
+Compiling module xil_defaultlib.returnB
+Compiling module xil_defaultlib.negA
+Compiling module xil_defaultlib.negB
+Compiling module xil_defaultlib._2bit_greater_than
+Compiling module xil_defaultlib.eq1
+Compiling module xil_defaultlib._8bit_gtoe
+Compiling module xil_defaultlib.AlessthanB
+Compiling module xil_defaultlib.mystery_module
+Compiling module xil_defaultlib.xnorAB
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib._6bit_ripple_adder
+Compiling module xil_defaultlib.top_calc
+Compiling module xil_defaultlib.mult_5bit
+Compiling module xil_defaultlib.divide_6bit
+Compiling module xil_defaultlib.top_calc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_calc_tb_behav

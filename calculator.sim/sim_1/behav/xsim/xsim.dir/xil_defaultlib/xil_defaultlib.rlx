@@ -1,0 +1,21 @@
+0.7
+2020.2
+Mar  6 2025
+19:11:57
+/home/evan/Documents/vivado/calculator/calculator.sim/sim_1/behav/xsim/glbl.v,1734094861,verilog,,,,glbl,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sim_1/new/top_calc_tb.v,1747917498,verilog,,,,top_calc_tb,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/AlessthanB.v,1741980410,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_2bit_greater_than.v,,AlessthanB,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_2bit_greater_than.v,1747764480,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_6bit_ripple_adder.v,,_2bit_greater_than,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_6bit_ripple_adder.v,1747764482,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_8bit_gtoe.v,,_6bit_ripple_adder,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_8bit_gtoe.v,1747764479,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/divide_6bit.v,,_8bit_gtoe,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/divide_6bit.v,1747917022,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/eq1.v,,divide_6bit,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/eq1.v,1747764488,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/full_adder.v,,eq1,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/full_adder.v,1747764484,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/mult_5bit.v,,full_adder,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/mult_5bit.v,1747917030,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/mystery_module.v,,mult_5bit,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/mystery_module.v,1747764486,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/negA.v,,mystery_module,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/negA.v,1741882099,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/negB.v,,negA,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/negB.v,1741882108,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/returnA.v,,negB,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/returnA.v,1747864452,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/returnB.v,,returnA,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/returnB.v,1741881869,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/top_calc.v,,returnB,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/top_calc.v,1747864467,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/xnorAB.v,,top_calc,,,,,,,,
+/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/xnorAB.v,1741882800,verilog,,/home/evan/Documents/vivado/calculator/calculator.srcs/sim_1/new/top_calc_tb.v,,xnorAB,,,,,,,,

@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.2 (64-bit)
+# SW Build 6060944 on Thu Mar 06 19:10:09 MST 2025
+# IP Build 6050500 on Thu Mar  6 23:33:39 MST 2025
+# SharedData Build 6060542 on Thu Mar 06 10:31:07 MST 2025
+# Start of session at: Sat May 24 22:22:33 2025
+# Process ID         : 74
+# Current directory  : /home/evan/Documents/vivado/calculator
+# Command line       : vivado /home/evan/Documents/vivado/calculator/calculator.xpr
+# Log file           : /home/evan/Documents/vivado/calculator/vivado.log
+# Journal file       : /home/evan/Documents/vivado/calculator/vivado.jou
+# Running On         : evan-MacBookPro
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : Intel(R) Core(TM) i7-2675QM CPU @ 2.20GHz
+# CPU Frequency      : 2112.588 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16677 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 18825 MB
+# Available Virtual  : 13809 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/evan/Documents/vivado/calculator/calculator.xpr
+INFO: [Project 1-313] Project file moved from '/home/evan/Documents/Vivado' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/evan/Documents/vivado/calculator/calculator.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/evan/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 7569.082 ; gain = 121.812 ; free physical = 330 ; free virtual = 12622
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_calc_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/evan/Documents/vivado/calculator/calculator.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/evan/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_calc_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/evan/Documents/vivado/calculator/calculator.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj top_calc_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/AlessthanB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AlessthanB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_2bit_greater_than.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _2bit_greater_than
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_6bit_ripple_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _6bit_ripple_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/_8bit_gtoe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _8bit_gtoe
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/divide_6bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divide_6bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/eq1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eq1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/mult_5bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult_5bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/mystery_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mystery_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/negA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module negA
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/negB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module negB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/returnA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module returnA
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/returnB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module returnB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/top_calc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_calc
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sources_1/new/xnorAB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xnorAB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.srcs/sim_1/new/top_calc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_calc_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/evan/Documents/vivado/calculator/calculator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/evan/Documents/vivado/calculator/calculator.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_calc_tb_behav xil_defaultlib.top_calc_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/evan/.var/app/com.github.corna.Vivado/data/xilinx-install/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_calc_tb_behav xil_defaultlib.top_calc_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.returnA
+Compiling module xil_defaultlib.returnB
+Compiling module xil_defaultlib.negA
+Compiling module xil_defaultlib.negB
+Compiling module xil_defaultlib._2bit_greater_than
+Compiling module xil_defaultlib.eq1
+Compiling module xil_defaultlib._8bit_gtoe
+Compiling module xil_defaultlib.AlessthanB
+Compiling module xil_defaultlib.mystery_module
+Compiling module xil_defaultlib.xnorAB
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib._6bit_ripple_adder
+Compiling module xil_defaultlib.top_calc
+Compiling module xil_defaultlib.mult_5bit
+Compiling module xil_defaultlib.divide_6bit
+Compiling module xil_defaultlib.top_calc_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_calc_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/evan/Documents/vivado/calculator/calculator.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_calc_tb_behav -key {Behavioral:sim_1:Functional:top_calc_tb} -tclbatch {top_calc_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_calc_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_calc_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 7754.246 ; gain = 80.164 ; free physical = 313 ; free virtual = 12526
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 24 22:24:05 2025...
